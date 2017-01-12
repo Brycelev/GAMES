@@ -1,0 +1,220 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.5em;
+  margin: inherit;
+}
+
+.main-nav {
+margin-top: 5px;
+} 
+
+
+.name a,
+.main-nav a {
+	text-align: center;
+  display:block;
+  padding: 10px 15px:
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+
+
+
+
+.main-header {
+ padding-top: .5em;
+ padding-bottom: .5em;
+}
+
+.banner,
+.main-footer {
+  text-align: center;  
+}
+
+
+.banner {
+	color: #fff;
+	background:linear-gradient(0deg,blue,transparent),url(http://nowiknow.com/wp-content/uploads/Rock-Paper-Scissors.jpg);
+  padding: 3.2em 0;
+  margin-bottom: 30px;
+  
+}
+
+.col {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+ margin-bottom: 0; 
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+
+
+
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+
+    .wrapper {
+ margin-right: 10px 
+}
+
+    .primary,
+    .secondary {
+ width: 50%; 
+  float: left;
+}
+/* Header */
+    .main-nav {
+     float: right;
+    }
+    
+    .main-nav li {
+      display: inline-block;
+      margin-left: 15px; 
+    }
+.main-header {
+ 
+}
+
+.name {
+     float: left; 
+    }
+
+.tagline {
+  font-size: 1.4em;
+} 
+
+
+@media (min-width: 1025px) {
+
+  .container {
+     width: 80%;
+     max-width: 1150px;
+  } 
+
+.primary {
+  width: 50%;
+  float: left;
+}
+
+.secondary,
+.tertiary{
+ width: 50%;
+  float: left;
+}
+}
+
+
+
+
+
+
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+/*Dice*/
+
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+button {
+  background-color: rgb(82, 186, 179);
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+}
+#placeholder {
+ border-color: blue;
+ border-radius: 3px;
+  
+}
+
+
+
